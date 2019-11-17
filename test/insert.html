@@ -1,0 +1,35 @@
+<DOCCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Add Record Form</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+    <p>
+        <label for="firstName">Name:</label>
+        <input type="text" name="name" id="name">
+    </p>
+    <p>
+        <label for="lastName">Color:</label>
+        <input type="text" name="color" id="color">
+    </p>
+    <p>
+    <label>Select</label>
+          <input type = "radio"
+                 name = "choice"
+                 id = "cats"
+                 value = "cats"
+                 checked = "checked" />
+          <label for = "sizeSmall">Cats</label>
+          <input type = "radio"
+                 name = "choice"
+                 id = "dogs"
+                 value = "dogs" />
+          <label for = "sizeMed">Dogs</label>
+
+    </p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
